@@ -46,6 +46,7 @@ There is no public REST API, no API key and no bulk or data export. Use the MCP 
 | `list_saved_items`      | yes                              | Read the user's saved list with prices.                                                                                                                                                                      |
 | `remove_saved_items`    | yes                              | Remove products from the list or delete them. Destructive: confirm with the user first.                                                                                                                      |
 | `create_deal_alert`     | yes                              | Alert the user when a brand or keyword goes on offer.                                                                                                                                                        |
+| `report_problem`        | no                               | Tell MyGroceryPal about a missing product or a wrong price, when the user asks you to report it.                                                                                                             |
 
 ## Workflows
 
